@@ -5,6 +5,7 @@ import { resolve } from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/saudeintima/", // 👈 ESSA LINHA AQUI É ESSENCIAL!
   server: {
     host: "::",
     port: "8080",
